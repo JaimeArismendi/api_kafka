@@ -84,7 +84,7 @@ consumer_conf = {
     'security.protocol': os.getenv('KAFKA_SECURITY_PROTOCOL'),
     'sasl.username': os.getenv('KAFKA_SASL_USERNAME'),
     'sasl.password': os.getenv('KAFKA_SASL_PASSWORD'),
-    'group.id': 'transactions-group-1',
+    'group.id': 'transactions_jaimearismendi',
     'auto.offset.reset': 'earliest'
 }
 
